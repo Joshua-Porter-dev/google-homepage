@@ -1,0 +1,47 @@
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    word-spacing: 10px;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.google-header {
+    text-align: center;
+    font-size: 50px;
+}
+
+.search {
+    text-align: center;
+}
+
+
+
+.buttons {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.blue {
+    color: #4285F4;
+}
+
+.red {
+    color: #DB4437;
+}
+
+.yellow {
+    color: #F4B400;
+}
+
+.green {
+    color: #0F9D58;
+}
+
