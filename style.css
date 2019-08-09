@@ -1,32 +1,74 @@
+html {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 13px;
+}
+
 a {
     text-decoration: none;
-    color: grey;
+    color: rgb(80, 80, 80);
 }
 
 .nav {
     display: flex;
     justify-content: space-between;
     word-spacing: 10px;
+    margin: 20px;
 }
 
 .nav a:hover {
     text-decoration: underline;
+    color: grey;
 }
 
 .google-header {
     text-align: center;
     font-size: 50px;
+    padding-top: 50px;
+    padding-bottom: 0;
+}
+
+.google-header h1 {
+    margin-bottom: 20px;
 }
 
 .search {
     text-align: center;
 }
 
+.main-search {
+    width: 40%;
+    height: 40px;
+    border: 1px solid rgb(221, 219, 219);
+    border-radius: 25px;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+}
+
+
+
 
 
 .buttons {
     text-align: center;
     padding-top: 20px;
+}
+
+button {
+    border: none;
+    background-color: rgb(245, 245, 245);
+    color: grey;
+    border-radius: 5px;
+    height: 30px;
+    margin: 20px;
+}
+
+button:hover {
+    border: 1px solid rgb(167, 166, 166);
+    color: black;
 }
 
 .blue {
@@ -43,5 +85,24 @@ a {
 
 .green {
     color: #0F9D58;
+}
+
+.footer {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    word-spacing: 10px;
+    margin: 20px;
+    bottom: 0;
+    width: 95%;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    color: grey;
+}
+
+.footer #special {
+    word-spacing: 2px;
 }
 
